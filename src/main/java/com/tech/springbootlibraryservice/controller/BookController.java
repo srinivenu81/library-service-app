@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@CrossOrigin("https://libraryservice-demo.azurewebsites.net:8080")
+@CrossOrigin("https://libraryservice-demo.azurewebsites.net")
 public class BookController {
 
     @Autowired

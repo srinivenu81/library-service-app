@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin("https://libraryservice-demo.azurewebsites.net:8080")
+@CrossOrigin("https://libraryservice-demo.azurewebsites.net")
 @RequestMapping("/api/reviews")
 public class ReviewController {
 
